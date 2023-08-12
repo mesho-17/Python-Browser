@@ -12,9 +12,9 @@ class MainWindow(QMainWindow):
         self.showMaximized()
 
         # navbar
-        navbar = QToolBar()
+        navbar = QToolBar() 
         self.addToolBar(navbar)
-
+ 
         back_btn = QAction('Prev', self)
         back_btn.triggered.connect(self.browser.back) 
         navbar.addAction(back_btn)
