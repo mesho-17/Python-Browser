@@ -10,7 +10,7 @@ Clone the repository:
 ```
 git clone https://github.com/your-username/your-repository.git
 ```
-# Install the required dependencies:
+# Install the required dependencies: 
 ```
 pip install pyqt5 PyQtWebEngine
 ```
